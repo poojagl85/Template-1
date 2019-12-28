@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2.5px solid rgb(220, 221, 224);
+  border-bottom: 3px solid rgb(220, 221, 224);
 }
 .logo-savvy {
   font-size: 35px;
@@ -21,7 +21,7 @@ header {
 }
 .drop-down {
   height: 80px;
-  border: 2px solid rgb(220, 221, 224);
+  border: 3px 3px solid rgb(220, 221, 224);
   font-family: "Lato", sans-serif;
 
   border-radius: 200px;
@@ -88,16 +88,13 @@ header {
   margin-left: 30px;
 }
 .dropdown-icon {
-  margin-left: 245px;
-  margin-top: 18px;
+  margin-left: 230px;
+  margin-top: 15px;
 }
-.dropdown-icon i {
-  background: rgb(191, 186, 186);
-  border: none;
-  border-radius: 35px;
-  color: rgb(240, 242, 240);
-  font-size: 35px;
+.dropdown-icon img {
+  height: 50px;
 }
+
 .notification {
   width: 10px;
   height: 10px;
@@ -106,7 +103,7 @@ header {
   position: absolute;
   left: 1678px;
   top: 48px;
-  border: 2px solid white;
+  border: 3px 3px solid white;
 }
 .div1 {
   display: flex;
@@ -117,16 +114,25 @@ header {
   height: 350px;
   letter-spacing: 1px;
   width: 800px;
-  background: blue;
+  background: rgba(50, 100, 168, 1)
+    url("https://vectr.com/poojagl85/c2IyMdbAL.svg?width=640&height=640&select=c2IyMdbALpage0");
+  background-size: cover;
+  background-position: 100% 20%;
   border-radius: 20px;
   color: white;
+  box-shadow: 3px 3px #e6e6e6;
 }
 .div1-2 {
   height: 350px;
   width: 350px;
-  background: yellow;
+  box-shadow: 3px 3px #e6e6e6;
   margin: 65px;
   border-radius: 20px;
+  color: rgb(50, 100, 168);
+  overflow: hidden;
+  background: rgba(112, 147, 196, 0.2)
+    url(https://vectr.com/poojagl85/bk6wY2mKe.svg?width=640&height=640&select=bk6wY2mKepage0);
+  background-position: 70% 70%;
 }
 .div2 {
   display: flex;
@@ -134,18 +140,27 @@ header {
   align-items: center;
 }
 .div2-1 {
-  height: 350px;
+  height: 300px;
   width: 578px;
-  background: yellow;
+  text-align: center;
   margin-right: 65px;
   border-radius: 20px;
+  box-shadow: 3px 3px #e6e6e6;
+  background: rgba(115, 29, 181, 0.1)
+    url(https://vectr.com/poojagl85/e8DBRTef8.svg?width=640&height=640&select=e8DBRTef8page0);
+  background-position: 70% 90%;
 }
 .div2-2 {
-  height: 350px;
+  height: 300px;
   width: 578px;
-  background: yellow;
+  text-align: center;
   margin-right: 50px;
   border-radius: 20px;
+  box-shadow: 3px 3px #e6e6e6;
+  background: rgba(29, 181, 176, 0.1)
+    url("https://vectr.com/poojagl85/k48EwQxpqL.svg?width=640&height=640&select=k48EwQxpqLpage0");
+  background-size: cover;
+  background-position: 100% 90%;
 }
 .div3 {
   display: flex;
@@ -154,24 +169,33 @@ header {
   margin-top: 65px;
 }
 .div3-1 {
-  height: 350px;
+  height: 300px;
   width: 578px;
-  background: yellow;
+  text-align: center;
+  background: rgba(207, 120, 186, 0.2)
+    url("https://vectr.com/poojagl85/c14FZwXrJN.svg?width=640&height=640&select=c14FZwXrJNpage0");
+  background-size: cover;
+  background-position: 100% 98%;
+
   margin-right: 65px;
   border-radius: 20px;
+  box-shadow: 3px 3px #e6e6e6;
+  margin-bottom: 100px;
 }
 .div3-2 {
-  height: 350px;
+  height: 300px;
   width: 578px;
-  background: yellow;
+  text-align: center;
+  margin-bottom: 100px;
   margin-right: 50px;
   border-radius: 20px;
+  box-shadow: 3px 3px #e6e6e6;
 }
 .div1-1 h1 {
   text-align: center;
   width: 500px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 35px;
   font-size: 30px;
 }
 .div1-1 p {
@@ -181,4 +205,139 @@ header {
   font-size: 20px;
   margin-top: 20px;
   line-height: 30px;
+}
+.div1-1 {
+  overflow: hidden;
+}
+.div1-1 img {
+  position: relative;
+  width: 110%;
+  height: 215%;
+}
+
+.div1-2 h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 35px;
+}
+.div1-2 button {
+  height: 90px;
+  width: 120px;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 3px 3px #e6e6e6;
+
+  line-height: 3px 3px;
+}
+.button1,
+.button3 {
+  margin-left: 45px;
+  margin-right: 20px;
+}
+.button1,
+.button2 {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.button1 {
+  background: rgb(50, 100, 168);
+  color: white;
+  border: none;
+}
+.button2,
+.button3,
+.button4 {
+  background: white;
+  border: 1px solid rgb(191, 186, 186);
+  color: rgb(50, 100, 168);
+}
+.div1-2 button i {
+  font-size: 25px;
+}
+.div1-2 button p {
+  font-size: 15px;
+}
+.div2-1 h1 {
+  font-size: 20px;
+  margin-top: 50px;
+  color: rgb(115, 29, 181);
+}
+.div2-1 button {
+  width: 300px;
+  height: 50px;
+  background: none;
+  border-radius: 50px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 3px 3px #e6e6e6;
+  background: rgb(115, 29, 181);
+  color: white;
+}
+.div2-1 p {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 25px;
+}
+.div2-2 h1 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.div2-2 button {
+  width: 300px;
+  height: 50px;
+  background: none;
+  border-radius: 50px;
+  font-size: 17px;
+  border: none;
+  background: rgb(29, 181, 176);
+  color: white;
+  box-shadow: 3px 3px #e6e6e6;
+}
+.div2-2 p {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 25px;
+}
+.div3-1 h1 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.div3-1 button {
+  width: 300px;
+  height: 50px;
+  background: none;
+  border-radius: 50px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 3px 3px #e6e6e6;
+  background: rgba(207, 120, 186);
+  color: white;
+}
+.div3-1 p {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 25px;
+}
+.div3-2 h1 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.div3-2 button {
+  width: 300px;
+  height: 50px;
+  background: none;
+  border-radius: 50px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 3px 3px #e6e6e6;
+}
+.div3-2 p {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 25px;
+}
+h2 {
+  text-align: center;
+  margin: 130px auto;
+  color: rgb(50, 100, 168);
 }
