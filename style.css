@@ -180,6 +180,7 @@ header {
   margin-right: 65px;
   border-radius: 20px;
   box-shadow: 3px 3px #e6e6e6;
+
   margin-bottom: 100px;
 }
 .div3-2 {
@@ -190,6 +191,10 @@ header {
   margin-right: 50px;
   border-radius: 20px;
   box-shadow: 3px 3px #e6e6e6;
+  background: rgba(240, 40, 52, 0.1)
+    url("https://vectr.com/poojagl85/bUowFTFWi.svg?width=640&height=640&select=bUowFTFWipage0");
+  background-size: cover;
+  background-position: 10% 30%;
 }
 .div1-1 h1 {
   text-align: center;
@@ -227,7 +232,7 @@ header {
   border: none;
   box-shadow: 3px 3px #e6e6e6;
 
-  line-height: 3px 3px;
+  line-height: 3px;
 }
 .button1,
 .button3 {
@@ -281,6 +286,7 @@ header {
 .div2-2 h1 {
   font-size: 20px;
   margin-top: 50px;
+  color: rgb(29, 181, 176);
 }
 .div2-2 button {
   width: 300px;
@@ -301,6 +307,7 @@ header {
 .div3-1 h1 {
   font-size: 20px;
   margin-top: 50px;
+  color: rgb(207, 120, 186);
 }
 .div3-1 button {
   width: 300px;
@@ -310,7 +317,7 @@ header {
   font-size: 17px;
   border: none;
   box-shadow: 3px 3px #e6e6e6;
-  background: rgba(207, 120, 186);
+  background: rgb(207, 120, 186);
   color: white;
 }
 .div3-1 p {
@@ -321,6 +328,7 @@ header {
 .div3-2 h1 {
   font-size: 20px;
   margin-top: 50px;
+  color: rgb(237, 175, 2);
 }
 .div3-2 button {
   width: 300px;
@@ -330,6 +338,8 @@ header {
   font-size: 17px;
   border: none;
   box-shadow: 3px 3px #e6e6e6;
+  background: rgb(237, 175, 2);
+  color: white;
 }
 .div3-2 p {
   font-size: 20px;
@@ -340,4 +350,16 @@ h2 {
   text-align: center;
   margin: 130px auto;
   color: rgb(50, 100, 168);
+}
+.p3 {
+  color: rgb(29, 181, 176);
+}
+.p4 {
+  color: rgb(207, 120, 186);
+}
+.p5 {
+  color: rgb(115, 29, 181);
+}
+.p6 {
+  color: rgb(237, 175, 2);
 }
